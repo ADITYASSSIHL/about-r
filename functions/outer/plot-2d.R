@@ -8,4 +8,7 @@ grid <- outer(
         }
       );
 
-filled.contour(grid, axes = FALSE, color.palette=rainbow, asp=1);
+filled.contour(grid, axes = FALSE, color.palette=rainbow, asp=1);
+
+dev.off()
+install.packages("ggplot2")
