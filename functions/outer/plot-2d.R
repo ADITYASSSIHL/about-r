@@ -1,3 +1,8 @@
+
+dev.off()
+install.packages("ggplot2")
+
+
 x <- y <- seq(-1, 1, len=51);
 
 grid <- outer(
@@ -10,5 +15,3 @@ grid <- outer(
 
 filled.contour(grid, axes = FALSE, color.palette=rainbow, asp=1);
 
-dev.off()
-install.packages("ggplot2")
